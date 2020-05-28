@@ -1,0 +1,21 @@
+{
+  "name": "webgoat.net_tests",
+  "version": "1.0.0",
+  "description": "Forked from https://github.com/jerryhoff/WebGoat.NET and changes made to run this as an Azure App Service with 'MySql in App'.",
+  "main": "exercise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependendies": {
+    "puppeteer": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/contrastsecurity/webgoat.net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/contrastsecurity/webgoat.net#readme",
+  "dependencies": {}
+}

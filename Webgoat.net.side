@@ -1,0 +1,851 @@
+{
+  "id": "98c2e762-4b58-4319-8a2a-2d2add34ca92",
+  "version": "2.0",
+  "name": "Webgoat.net",
+  "url": "http://webgoat-net-da-app-service.azurewebsites.net",
+  "tests": [{
+    "id": "d45cdb32-fd1c-46f0-a9c6-e4d5b31625a8",
+    "name": "End-To-End",
+    "commands": [{
+      "id": "d6507848-35ca-4f7a-a077-4108a5ad062f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcf8eeaa-40ce-43f5-a1f6-b93f5e0b9416",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1027",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92397455-70c2-41a5-8a7d-9b303cb1faea",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_ButtonProceed",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_ButtonProceed", "id"],
+        ["name=ctl00$BodyContentPlaceholder$ButtonProceed", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_ButtonProceed", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_ButtonProceed']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000e996b-dce6-46e3-9721-e5b4ecd28bf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnRebuildDatabase",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnRebuildDatabase", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnRebuildDatabase", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnRebuildDatabase", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnRebuildDatabase']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cf26bf1-d171-4f56-bbcb-2c98191989ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WebGoat Coins Customer Portal",
+      "targets": [
+        ["linkText=WebGoat Coins Customer Portal", "linkText"],
+        ["css=#menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WebGoat Coins Customer Portal')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WebGoat Coins Customer Portal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd03a928-ba48-43e9-ad28-baa06752a602",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Login",
+      "targets": [
+        ["linkText=Customer Login", "linkText"],
+        ["css=li:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Login')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/CustomerLogin.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c69297-1ffe-4209-9139-65e83ddf534a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtUserName",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtUserName", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtUserName", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtUserName']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd733352-18e8-4b24-9368-61fb5d4ea567",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtUserName",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtUserName", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtUserName", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtUserName", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtUserName']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "26a67ea5-6ea2-4ae2-bf48-3ef383a45ef1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtPassword",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtPassword", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtPassword", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//p[2]/input[2]", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "93d51ed4-ce45-44a5-abc0-9bbabd30d772",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_buttonLogOn",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_buttonLogOn", "id"],
+        ["name=ctl00$BodyContentPlaceholder$buttonLogOn", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_buttonLogOn", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_buttonLogOn']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28d1f9cf-1839-40b9-97a3-12624e7ab29a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Change Password",
+      "targets": [
+        ["linkText=Change Password", "linkText"],
+        ["css=.expand li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Change Password')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/ChangePassword.aspx')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Change Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3fb98d-058e-46be-adf8-be3ac935ae78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Portal",
+      "targets": [
+        ["linkText=Customer Portal", "linkText"],
+        ["css=.expand li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Customer Portal')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/MainPage.aspx')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5297908-1d0f-4719-8caf-722039bbfe59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Product Catalog",
+      "targets": [
+        ["linkText=Product Catalog", "linkText"],
+        ["css=.acitem > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Product Catalog')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/Catalog.aspx')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Product Catalog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "954911d1-c286-4f94-bcd6-8afffa6c69c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Product Details",
+      "targets": [
+        ["linkText=Product Details", "linkText"],
+        ["css=.acitem > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Product Details')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/ProductDetails.aspx')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Product Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a253822-cf30-47f9-87f1-8e2ac06fa0ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Customer Orders",
+      "targets": [
+        ["linkText=Customer Orders", "linkText"],
+        ["css=.acitem > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Customer Orders')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/WebGoatCoins/Orders.aspx')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Customer Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c369e909-f39b-4656-8666-2aa5c0fd8382",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Injection Attacks",
+      "targets": [
+        ["linkText=Injection Attacks", "linkText"],
+        ["css=#menu > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Injection Attacks')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Injection Attacks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "028e966b-acc2-4ea9-b9bd-6cb8e65f8d46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SQL Error Messages",
+      "targets": [
+        ["linkText=SQL Error Messages", "linkText"],
+        ["css=li:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SQL Error Messages')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/SQLInjectionDiscovery.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SQL Error Messages')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e3ac1d-c709-4d8f-a969-315087e8ab6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtID",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtID", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtID", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtID", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtID']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d0317c-1edc-4707-a56d-4822e0b1cbbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtID",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtID", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtID", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtID", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtID']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "101"
+    }, {
+      "id": "c6f79d5f-b860-46ee-ae6c-3222fc299d1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnFind",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnFind", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnFind", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnFind", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnFind']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "867fa88b-0e00-4c6f-b50b-02a03b9fae10",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Exploiting SQL Injection",
+      "targets": [
+        ["linkText=Exploiting SQL Injection", "linkText"],
+        ["css=.expand li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Exploiting SQL Injection')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/SQLInjection.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Exploiting SQL Injection')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2aa0838c-7ef7-4a5d-95bc-f9b8c362fda0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtName",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtName", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtName", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtName", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtName']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd9a1f19-6d2d-4e32-9d9c-fe9eafe98faf",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtName",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtName", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtName", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtName", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtName']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "A"
+    }, {
+      "id": "d3673965-120e-4296-be3a-63d592a991b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnAdd",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnAdd", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnAdd", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnAdd", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnAdd']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f243f090-118f-4a6b-ac6d-3a7e8d7c23dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=File Download Path Manipulation",
+      "targets": [
+        ["linkText=File Download Path Manipulation", "linkText"],
+        ["css=.expand li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'File Download Path Manipulation')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/PathManipulation.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'File Download Path Manipulation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0abb2cb-5e12-47af-927a-475d4ba7b011",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=File Upload Path Manipulation",
+      "targets": [
+        ["linkText=File Upload Path Manipulation", "linkText"],
+        ["css=.expand li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'File Upload Path Manipulation')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/UploadPathManipulation.aspx')]", "xpath:href"],
+        ["xpath=//li[3]/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'File Upload Path Manipulation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0f80cd-1afc-4240-ae4f-3fe0a13cbd0b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cross Site Scripting (XSS)",
+      "targets": [
+        ["linkText=Cross Site Scripting (XSS)", "linkText"],
+        ["css=#menu > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Cross Site Scripting (XSS)')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cross Site Scripting (XSS)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10eb9c70-44f7-42fe-b0ca-10b9910f7de7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stored XSS",
+      "targets": [
+        ["linkText=Stored XSS", "linkText"],
+        ["css=li:nth-child(4) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Stored XSS')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[4]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/StoredXSS.aspx')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Stored XSS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95abb5c9-e61d-4c20-88f4-678d8591829f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtEmail",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtEmail", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtEmail", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtEmail']", "xpath:attributes"],
+        ["xpath=//td[@id='ctl00_BodyContentPlaceholder_TableCell2']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57c99bc4-23c6-49e0-9aff-8b3066ff6e4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtEmail",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtEmail", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtEmail", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtEmail']", "xpath:attributes"],
+        ["xpath=//td[@id='ctl00_BodyContentPlaceholder_TableCell2']/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "admin@admin.com"
+    }, {
+      "id": "be4604ca-fc96-4729-a1c0-84e53d6e82c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtComment",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtComment", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtComment", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtComment", "css:finder"],
+        ["xpath=//textarea[@id='ctl00_BodyContentPlaceholder_txtComment']", "xpath:attributes"],
+        ["xpath=//td[@id='ctl00_BodyContentPlaceholder_TableCell4']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test comment"
+    }, {
+      "id": "38435cc1-b48c-4a6b-a058-6e9284ad2393",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnSave",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnSave", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnSave", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnSave", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnSave']", "xpath:attributes"],
+        ["xpath=//td[@id='ctl00_BodyContentPlaceholder_TableCell6']/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ccebc0f-1942-4519-bba0-c828d23d6acf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reflected XSS",
+      "targets": [
+        ["linkText=Reflected XSS", "linkText"],
+        ["css=.expand li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reflected XSS')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/ReflectedXSS.aspx')]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reflected XSS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cc1df01-13c0-4a14-a75b-69ef4072af5a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=San Francisco",
+      "targets": [
+        ["linkText=San Francisco", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'San Francisco')]", "xpath:link"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ReflectedXSS.aspx?city=San+Francisco')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'San Francisco')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bb1daa-3c09-468e-b3d6-31513cc9707e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Authentication Issues",
+      "targets": [
+        ["linkText=Authentication Issues", "linkText"],
+        ["css=#menu > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Authentication Issues')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Authentication Issues')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a2625d7-d45d-4fe2-88ac-89ac6de1411c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Insecure Forgot Password",
+      "targets": [
+        ["linkText=Insecure Forgot Password", "linkText"],
+        ["css=li:nth-child(5) > .acitem a", "css:finder"],
+        ["xpath=//a[contains(text(),'Insecure Forgot Password')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[5]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/ForgotPassword.aspx')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Insecure Forgot Password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c80c4f36-b80e-4abb-86cb-d727df164197",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtEmail",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtEmail", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtEmail", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_BodyContentPlaceholder_PanelForgotPasswordStep1']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "853d11a8-ea23-4c42-b8e8-3025915e9134",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtEmail",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtEmail", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtEmail", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_BodyContentPlaceholder_PanelForgotPasswordStep1']/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "admin@admin.com"
+    }, {
+      "id": "e0386204-1c72-4d1a-80d5-1226fa00ebed",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_ButtonCheckEmail",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_ButtonCheckEmail", "id"],
+        ["name=ctl00$BodyContentPlaceholder$ButtonCheckEmail", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_ButtonCheckEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_ButtonCheckEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_BodyContentPlaceholder_PanelForgotPasswordStep1']/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16c4cc67-b14d-4d38-adf2-c604007371a2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing and Debugging",
+      "targets": [
+        ["linkText=Testing and Debugging", "linkText"],
+        ["css=#menu > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Testing and Debugging')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Testing and Debugging')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f515619-7099-4a2b-b41c-3db738dffa41",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Exploiting Debug Page",
+      "targets": [
+        ["linkText=Exploiting Debug Page", "linkText"],
+        ["css=li:nth-child(6) > .acitem a", "css:finder"],
+        ["xpath=//a[contains(text(),'Exploiting Debug Page')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[6]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/ExploitDebug.aspx')]", "xpath:href"],
+        ["xpath=//li[6]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Exploiting Debug Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ff61b13-047a-48aa-8e45-7580b84f4c5f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnGo",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29f5fa7a-c4cb-49f8-8a7a-08ff55722a15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Encryption",
+      "targets": [
+        ["linkText=Encryption", "linkText"],
+        ["css=#menu > li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Encryption')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Encryption')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e84fa6-2f4e-4bf4-a681-6168d933fe71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Encryption vs Encoding",
+      "targets": [
+        ["linkText=Encryption vs Encoding", "linkText"],
+        ["css=li:nth-child(7) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Encryption vs Encoding')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[7]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/EncryptVSEncode.aspx')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Encryption vs Encoding')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae345fb1-fd30-4e6a-8dd6-adf6dffdb5de",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtString",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtString", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtString", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtString", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtString']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdbd27db-6090-49ee-8c7f-4e51e7f71019",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtString",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtString", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtString", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtString", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtString']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "c727ea89-4e6a-4dbc-95b9-a036491b851c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtPassword",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtPassword", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtPassword", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtPassword", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_txtPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "1157e029-0645-407c-a65a-41078750dd4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnGo",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnGo", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnGo", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnGo", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnGo']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400a85b1-d105-4b96-ab86-32c8ae3edcfd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Insecure Message Digest",
+      "targets": [
+        ["linkText=Insecure Message Digest", "linkText"],
+        ["css=.expand li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Insecure Message Digest')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[7]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/MessageDigest.aspx')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Insecure Message Digest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a76aaa-39be-410b-8759-e1ff504151b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtBoxMsg",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtBoxMsg", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtBoxMsg", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtBoxMsg", "css:finder"],
+        ["xpath=//textarea[@id='ctl00_BodyContentPlaceholder_txtBoxMsg']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3bfe54-2c74-4868-bdf3-165476621cff",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtBoxMsg",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtBoxMsg", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtBoxMsg", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtBoxMsg", "css:finder"],
+        ["xpath=//textarea[@id='ctl00_BodyContentPlaceholder_txtBoxMsg']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "dd71381e-54d9-4e46-a91a-b509bc0af2ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnDigest",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnDigest", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnDigest", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnDigest", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnDigest']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "410ec3c6-bd50-4075-bb7d-b14cb36ef63b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Weak Random Number Generators",
+      "targets": [
+        ["linkText=Weak Random Number Generators", "linkText"],
+        ["css=.expand li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Weak Random Number Generators')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[7]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/Random.aspx')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Weak Random Number Generators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "259b8a45-c2ad-4ff2-ba45-822aac38936f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnOneMore",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnOneMore", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnOneMore", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnOneMore", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnOneMore']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "797b6d22-2efa-49d5-8adb-86aa86dfefe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=.NET Exploits",
+      "targets": [
+        ["linkText=.NET Exploits", "linkText"],
+        ["css=#menu > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'.NET Exploits')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div/ul/li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'.NET Exploits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "053640c3-f232-4562-8356-12d5c132e0bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Unsafe blocks",
+      "targets": [
+        ["linkText=Unsafe blocks", "linkText"],
+        ["css=li:nth-child(8) > .acitem a", "css:finder"],
+        ["xpath=//a[contains(text(),'Unsafe blocks')]", "xpath:link"],
+        ["xpath=//ul[@id='menu']/li[8]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/Unsafe.aspx')]", "xpath:href"],
+        ["xpath=//li[8]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Unsafe blocks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fe0c778-165e-4fff-a5d2-10dbc10fbd67",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_txtBoxMsg",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtBoxMsg", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtBoxMsg", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtBoxMsg", "css:finder"],
+        ["xpath=//textarea[@id='ctl00_BodyContentPlaceholder_txtBoxMsg']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaf845d8-54c5-44f5-ac08-acc75d9294a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_BodyContentPlaceholder_txtBoxMsg",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_txtBoxMsg", "id"],
+        ["name=ctl00$BodyContentPlaceholder$txtBoxMsg", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_txtBoxMsg", "css:finder"],
+        ["xpath=//textarea[@id='ctl00_BodyContentPlaceholder_txtBoxMsg']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "3f638b00-b60f-448d-9067-8df1fdb501e3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_BodyContentPlaceholder_btnReverse",
+      "targets": [
+        ["id=ctl00_BodyContentPlaceholder_btnReverse", "id"],
+        ["name=ctl00$BodyContentPlaceholder$btnReverse", "name"],
+        ["css=#ctl00_BodyContentPlaceholder_btnReverse", "css:finder"],
+        ["xpath=//input[@id='ctl00_BodyContentPlaceholder_btnReverse']", "xpath:attributes"],
+        ["xpath=//form[@id='aspnetForm']/div[4]/div/div[2]/div[4]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cd126613-3622-4461-baed-ff066e85369e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d45cdb32-fd1c-46f0-a9c6-e4d5b31625a8"]
+  }],
+  "urls": ["http://webgoat-net-da-app-service.azurewebsites.net/"],
+  "plugins": []
+}
