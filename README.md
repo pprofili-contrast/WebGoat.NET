@@ -1,6 +1,6 @@
-# Webgoat.Net
+# Webgoat.NET
 
-Forked from https://github.com/jerryhoff/WebGoat.NET and changes made to run this as an Azure App Service with 'MySql in App'.
+Forked from https://github.com/jerryhoff/WebGoat.NET with changes to run as an Azure App Service with 'MySql in App'.
 
 ## Azure App Service
 
