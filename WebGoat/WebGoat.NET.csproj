@@ -1083,9 +1083,8 @@
     <None Include="FolderProfile.pubxml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <None Include="Properties\PublishProfiles\WebGoatNET20200527031113 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\WebGoatNET20200528070201 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\WebGoatNET20200528094255 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\WebGoatNET20200701031714 - Web Deploy.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
