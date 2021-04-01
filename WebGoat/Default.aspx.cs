@@ -12,7 +12,7 @@ namespace OWASP.WebGoat.NET
         
         protected void ButtonProceed_Click(object sender, EventArgs e)
         {
-            Response.Redirect("RebuildDatabase.aspx");
+            Response.Redirect("~/RebuildDatabase.aspx");
         }
 
         protected void Page_Load(object sender, EventArgs e)

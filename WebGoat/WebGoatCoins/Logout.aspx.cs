@@ -18,7 +18,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
         protected void btnLogout_Click(object sender, EventArgs e)
         {
             FormsAuthentication.SignOut();
-            Response.Redirect("Default.aspx");
+            Response.Redirect("~/Default.aspx");
         }
     }
 }

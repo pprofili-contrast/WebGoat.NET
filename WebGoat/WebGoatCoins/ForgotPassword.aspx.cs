@@ -75,7 +75,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
 
         protected void ButtonGoToCustomerLogin_Click(object sender, EventArgs e)
         {
-            Response.Redirect("CustomerLogin.aspx");
+            Response.Redirect("~/CustomerLogin.aspx");
         }
 
         string getPassword(string email)

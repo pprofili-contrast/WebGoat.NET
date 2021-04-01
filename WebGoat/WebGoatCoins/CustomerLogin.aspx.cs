@@ -67,7 +67,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
             string returnUrl = Request.QueryString["ReturnUrl"];
             
             if (returnUrl == null) 
-                returnUrl = "MainPage.aspx";
+                returnUrl = "~/MainPage.aspx";
                 
             Response.Redirect(returnUrl);        
         }

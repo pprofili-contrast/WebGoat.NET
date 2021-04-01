@@ -18,7 +18,7 @@ namespace OWASP.WebGoat.NET
     
     	protected void ButtonLogOn_Click(object sender, EventArgs e)
     	{
-            Response.Redirect("/WebGoatCoins/CustomerLogin.aspx");
+            Response.Redirect("~/WebGoatCoins/CustomerLogin.aspx");
 
             //if(Membership.ValidateUser(txtUserName.Value.Trim(), txtPassword.Value.Trim()))
             //{
