@@ -1,4 +1,13 @@
 # ASP.NET
+- task: ContrastIntegration@2
+  inputs:
+    ContrastService: 'Contrast AppTwo'
+    Application: '805c87f2-dc03-41de-bbdb-2e9a889a0655'
+    CriticalLimit: '0'
+    HighLimit: '0'
+    MediumLimit: '-1'
+    LowLimit: '-1'
+    NoteLimit: '-1'
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
